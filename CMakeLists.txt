@@ -338,7 +338,7 @@ if(WITH_QHULL)
 endif(WITH_QHULL)
 
 # Cuda
-option(WITH_CUDA "Build NVIDIA-CUDA support" TRUE)
+option(WITH_CUDA "Build NVIDIA-CUDA support" FALSE)
 if(WITH_CUDA)
   include("${PCL_SOURCE_DIR}/cmake/pcl_find_cuda.cmake")
 endif(WITH_CUDA)
