@@ -343,7 +343,7 @@ if(WITH_CUDA)
   include("${PCL_SOURCE_DIR}/cmake/pcl_find_cuda.cmake")
 endif(WITH_CUDA)
 
-option(WITH_QT "Build QT Front-End" TRUE)
+option(WITH_QT "Build QT Front-End" FALSE)
 if(WITH_QT)
   set(PCL_QT_VERSION 5 CACHE STRING "Which QT version to use")
   if("${PCL_QT_VERSION}" STREQUAL "4")
