@@ -410,7 +410,7 @@ if(WITH_PCAP)
 endif(WITH_PCAP)
 
 # OpenGL and GLUT
-option(WITH_OPENGL "Support for OpenGL" TRUE)
+option(WITH_OPENGL "Support for OpenGL" FALSE)
 if(WITH_OPENGL)
   include("${PCL_SOURCE_DIR}/cmake/pcl_find_gl.cmake")
 endif(WITH_OPENGL)
